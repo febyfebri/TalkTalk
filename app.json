@@ -6,6 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "scheme": "TalkTalk",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -26,6 +27,12 @@
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d48e8c99-2c61-40a6-8390-e17682729f50"
+      }
+    },
+    "owner": "kimit1208"
   }
 }
